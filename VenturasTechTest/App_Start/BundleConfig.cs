@@ -47,8 +47,8 @@ namespace VenturasTechTest
                 "~/Scripts/gridmvc"));
 
             bundles.Add(new StyleBundle("~/Content/Gridmvc").Include(
-                            "~/Content/Gridmvc.css",
-                            "~/Content/User/userlist.css"));
+                            "~/Content/Gridmvc.css"
+                            ));
         }
     }
 }
