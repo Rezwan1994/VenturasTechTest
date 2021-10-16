@@ -1,0 +1,22 @@
+﻿.webgrid-table {
+    width: 100%;
+    border: 1px solid #98BF21;
+    margin-top: 20px;
+}
+
+    .webgrid-table tr th {
+        border: 1px solid black;
+        text-align: center;
+        font-weight: bold;
+        color: black
+    }
+
+    .webgrid-table tr td {
+        border: 1px solid black;
+        text-align: center;
+    }
+
+#saveList {
+    float: right;
+    margin-top: 20px;
+}

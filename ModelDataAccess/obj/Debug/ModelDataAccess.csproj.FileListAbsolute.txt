@@ -1,0 +1,14 @@
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\bin\Debug\ModelDataAccess.dll.config
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\bin\Debug\ModelDataAccess.dll
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\bin\Debug\ModelDataAccess.pdb
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\bin\Debug\ModelEntity.dll
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\bin\Debug\ModelEntity.pdb
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\obj\Debug\ModelDataAccess.csproj.AssemblyReference.cache
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\obj\Debug\ModelDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\obj\Debug\ModelDataAccess.csproj.CopyComplete
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\obj\Debug\ModelDataAccess.dll
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelDataAccess\obj\Debug\ModelDataAccess.pdb

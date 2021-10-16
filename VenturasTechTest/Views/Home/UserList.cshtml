@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ModelEntity.User>
+@using GridMvc.Html
+@{
+    Layout = null;
+    ViewBag.Title = "UserList";
+    var grid = new WebGrid(Model);
+}
+
+
+@grid.GetHtml(
+        tableStyle: "webgrid-table",
+        headerStyle: "webgrid-header",
+        footerStyle: "webgrid-footer",
+        alternatingRowStyle: "webgrid-alternating-row",
+        selectedRowStyle: "webgrid-selected-row",
+        rowStyle: "webgrid-row-style",
+        mode: WebGridPagerModes.All,
+        columns:
+            grid.Columns(
+            grid.Column(columnName: "Title", header: "Title", format: @<text>@item.Title</text>),
+grid.Column(columnName: "Address", header: "Address", format: @<text>@item.Address</text> ),
+grid.Column(columnName: "Type", header: "Type", format: @<text>@item.Type</text>),
+grid.Column(columnName: "Date", header: "Date", format: @<text>@item.Date.ToString("dd-MM-yyyy")</text>),
+grid.Column(columnName: "Time", header: "Time", format: @<text>@item.Time</text>),
+grid.Column(columnName: "Remarks", header: "Remarks", format: @<text>@item.Remarks</text>),
+grid.Column(columnName: "Action", header: "Action", format: @<a href="javascript:void(0)" class="userDelete" onclick="DeleteUser('@item.SerialId')">Delete</a>)
+))
+
+
+
+@section styles{
+    @Styles.Render("~/Content/Gridmvc")
+}
+@section scripts{
+    @Scripts.Render("~/bundles/Gridmvc")
+}

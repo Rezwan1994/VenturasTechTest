@@ -1,0 +1,6 @@
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelEntity\bin\Debug\ModelEntity.dll
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelEntity\bin\Debug\ModelEntity.pdb
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelEntity\obj\Debug\ModelEntity.csproj.AssemblyReference.cache
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelEntity\obj\Debug\ModelEntity.csproj.CoreCompileInputs.cache
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelEntity\obj\Debug\ModelEntity.dll
+C:\Users\Piistech\source\repos\VenturasTechTest\ModelEntity\obj\Debug\ModelEntity.pdb

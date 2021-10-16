@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/Layout")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="ExpandCloseNav()">&times;</a>
+        <div class="sidebarContent">
+            <h2>Menu Bar</h2>
+            <h3>Page 1</h3>
+
+        </div>
+        <div class="dateSection">
+            <p class="logout">LogOut</p>
+            <label>UTC:</label>
+            <span>@DateTime.Now.ToString("hh:mm tt ")</span>@DateTime.Now.ToString("ddd, dd MMM yyy")
+            <label>Local:</label>
+            <span>@DateTime.Now.ToString("hh:mm tt ")</span>@DateTime.Now.ToString("ddd, dd MMM yyy")
+        </div>
+
+    </div>
+    <button class="openbtn" onclick="ExpandCloseNav()">☰</button>
+    <div id="main">
+        <div class="body-content">
+            @RenderBody()
+
+        </div>
+    </div>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/Layout")
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>
